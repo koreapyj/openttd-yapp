@@ -1,0 +1,87 @@
+YAPP 3.0-RC3-BS  - Yet Another Patch Pack v3.0-RC3-BS for openttd-1.3.2
+by koreapyj
+
+Changes since 3.0-RC3:
+ + Add "Signals in tunnels and on bridges"
+
+Changes since 3.0-RC2:
+ + Land buying extension
+ + Change to station rating with slow vehicles
+ + More height level (no flickering - copied from Spring Patch Pack)
+ + Fences on/off
+ + Close adjacent level crossings
+ & first YAPP update which compatible with the latest version :->
+
+Major patches:
+ YACD - Yet Another CargoDestinations ( http://www.tt-forums.net/viewtopic.php?f=33&t=54253 )
+ Large maps - Up to size 1048576 x 1048576 ( http://www.tt-forums.net/viewtopic.php?f=33&t=33137 )
+ More Height Level - Mountains are up to 256 levels ( http://www.tt-forums.net/viewtopic.php?f=33&t=40844 )
+ Lost Cargo Costs - Lost cargo generates lost money on underrated stations ( http://www.tt-forums.net/viewtopic.php?f=33&t=68754 )
+ Daylength - Change the length of a day ( http://www.tt-forums.net/viewtopic.php?f=33&t=42432 )
+ STS - Slim Timetable Separation ( http://www.tt-forums.net/viewtopic.php?t=54332 )
+ IS2 - Infrastucture Sharing ( http://www.tt-forums.net/viewtopic.php?f=33&t=42254 )
+ Clipboard - Copy & paste infrastucture with templates ( http://www.tt-forums.net/viewtopic.php?f=33&t=45488 )
+ Speed limits for Road vehicles - Set a maximum km/h in a town ( http://www.tt-forums.net/viewtopic.php?f=33&t=35402 )
+ Trafficlights+randomroad - Towns build traffic lights for road vehicles ( http://www.tt-forums.net/viewtopic.php?f=33&t=36261 )
+ Conditional loading - Let the vehicle wait for percent of cargo at station ( http://www.tt-forums.net/viewtopic.php?p=936600 )
+ More conditonal orders - Adding waiting/accepted cargo + free platforms conditionals for playing ECS ( http://www.tt-forums.net/viewtopic.php?f=33&t=38317 )
+ Signals in tunnels and on bridges - http://www.tt-forums.net/viewtopic.php?f=33&t=41260
+
+Minor patches:
+ TBTR - Template based train replacement ( http://www.tt-forums.net/viewtopic.php?f=33&t=58904 )
+ Town Cargo - Adjust town cargo generation factor ( http://www.tt-forums.net/viewtopic.php?f=33&t=46399 )
+ Cargo Production - Adjust industry cargo generation factor
+ Polyline - Construct railways a bit more easy ( http://www.tt-forums.net/viewtopic.php?f=33&t=57080 )
+ Build and refit - Instantly buy the refitted vehicle ( http://www.tt-forums.net/viewtopic.php?f=33&t=35805 )
+ Advanced Station Control - Remove cargo from station via ctrl-click ( http://www.tt-forums.net/viewtopic.php?f=33&t=59590 )
+ Change timetable for all station via ctrl-click ( http://www.tt-forums.net/viewtopic.php?f=32&t=50274 )
+ Trees growth reduced - ( http://www.tt-forums.net/viewtopic.php?f=33&t=45502 )
+ Huge airports - 2 larger airports; use hugeairports newgrf for preview ( http://www.tt-forums.net/viewtopic.php?f=33&t=56933 )
+ Airport upgrade - Upgrade airports without demolish them ( http://www.tt-forums.net/viewtopic.php?f=33&t=35867 )
+ Town Construction Cost - Raise construction cost near towns ( http://www.tt-forums.net/viewtopic.php?t=32942 )
+ Taxes - Adds tax base on company value ( http://www.tt-forums.net/viewtopic.php?f=33&t=45642 )
+ Repair cost - Cost of repair for each breakdown is 1/1024 vehicle value ( http://www.tt-forums.net/viewtopic.php?f=33&t=45642 )
+ Donate money - Give money to other companies ( https://www.tt-forums.net/viewtopic.php?f=33&t=63899 )
+ Ship movement - Ships can't cross each other except at docks ( http://www.tt-forums.net/viewtopic.php?f=33&t=42758 )
+ Snow in temperate Climate ( http://www.tt-forums.net/viewtopic.php?t=24574 )
+ Import towns - Generating scenarios with cities from real world coordinates ( http://www.tt-forums.net/viewtopic.php?f=29&t=68926 )
+ Wider rivers - Terragenesis map generator build a bit wider more realistic rivers ( http://www.icosahedron.de/openttd/patches/wide_rivers.diff )
+ Land buying extension - Buy land with drag & drop ( http://bugs.openttd.org/task/5156 )
+ Change to Station Rating - Increased rating with slow vehicles like ships ( http://www.tt-forums.net/viewtopic.php?f=33&t=59624 )
+ Close adjacent level crossings - closes the level crossings on parallel tracks if a train is approaching ( http://www.tt-forums.net/viewtopic.php?t=46091 )
+ More newgrf - up to 256 newgrfs in single player ( http://www.tt-forums.net/viewtopic.php?f=31&t=37435 )
+ Toggle curve speed penalty for road vehicles
+
+Fancy patches:
+ Departure board - Show departure board of any station ( http://www.tt-forums.net/viewtopic.php?f=33&t=49956 )
+ Tooltip & stopover - Show production rate on mouseover & show stopovers of a vehicle ( https://www.tt-forums.net/viewtopic.php?f=33&t=53394 )
+ Transparent tunnels - Show vehicles in tunnels ( http://www.tt-forums.net/viewtopic.php?f=33&t=66960 )
+ Trip history - History of income of a vehicle ( http://www.tt-forums.net/viewtopic.php?f=33&t=33411 )
+ Specific group name - Automatically name the group from the first and last station or town while dragging to new group button. ( http://www.tt-forums.net/viewtopic.php?f=33&t=64762 )
+ Industry Station Names - Name stations based on production of industry ( http://www.tt-forums.net/viewtopic.php?f=33&t=35613 )
+ Station coverage areas - Show coverage of any complex station via ctrl-click ( http://www.tt-forums.net/viewtopic.php?f=33&t=44835 )
+ Station forecast - Supply and demand display on station building ( http://www.tt-forums.net/viewtopic.php?f=33&t=59297 )
+ Town rating colours - Indicate the local authority via color ( http://www.tt-forums.net/viewtopic.php?f=33&t=42598 )
+ Group profit - Summarize the income of vehicle in one group ( http://www.tt-forums.net/viewtopic.php?f=33&t=33148 )
+ Watch GUI - Show other companies building ( http://www.tt-forums.net/viewtopic.php?f=33&t=45221 )
+ Filter industry - Filter by cargo in industry list window ( http://bugs.openttd.org/task/5455 )
+ Toggle fences near rails ( http://www.tt-forums.net/viewtopic.php?f=32&t=69363 )
+ Show cargo destinations for all vehicles ( http://www.tt-forums.net/viewtopic.php?f=33&t=54253&start=360#p1103399 )
+ Toggle cashtill sound when income
+
+Some little changes:
+ Faster road reconstruction
+ Statusbar height was increased by 2px to display big letters correctly with hungarian (or other) accents.
+
+
+Small bugs:
+ Trip history can't handle minutes and it always calculates in days.
+ Town rating colours shows red labels incorrectly for the first month of the game.
+ Industry station names can generate 2 nearby stations with the same name.
+ There is no preview of huge airports in building menu when you don't use the hugeairports grf. Apart from this you can still build a fully working huge airport.
+ Cargo related conditional orders is available for trains & road vehicles only.
+ Town window shows wrong summary of passengers and mails.
+ Patches Refit & TBTR are disabled in multiplayer to avoid desync.
+
+
+I recommend to play YACD with Neighbours are important or Real growth gamescript to avoid a lot of PAX too quickly.
