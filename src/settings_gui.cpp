@@ -1549,6 +1549,7 @@ static SettingsPage _settings_ui_page = {_settings_ui, lengthof(_settings_ui)};
 
 static SettingEntry _settings_construction_signals[] = {
 	SettingEntry("construction.train_signal_side"),
+	SettingEntry("construction.simulated_wormhole_signals"),
 	SettingEntry("gui.enable_signal_gui"),
 	SettingEntry("gui.drag_signals_fixed_distance"),
 	SettingEntry("gui.semaphore_build_before"),

@@ -1454,6 +1454,9 @@ STR_CONFIG_SETTING_NEWS_SUBSIDIES                               :보조금: {STR
 STR_CONFIG_SETTING_NEWS_SUBSIDIES_HELPTEXT                      :보조금과 관련된 소식을 메시지로 알려줍니다.
 STR_CONFIG_SETTING_NEWS_GENERAL_INFORMATION                     :일반 정보: {STRING}
 STR_CONFIG_SETTING_NEWS_GENERAL_INFORMATION_HELPTEXT            :도로 재건축 투자나 수송 독점권의 구입 등과 같은 일반적인 사건에 대한 소식을 메시지로 알려줍니다.
+STR_CONFIG_SETTING_SIMULATE_SIGNALS                             :터널이나 교량의 폐색 간격: {STRING}
+STR_CONFIG_SETTING_SIMULATE_SIGNALS_VALUE                       :{COMMA} 타일마다
+STR_CONFIG_SETTING_SIMULATE_SIGNALS_HELPTEXT					:터널이나 교량에 시뮬레이팅할 폐색 간격을 설정합니다.
 
 STR_CONFIG_SETTING_NEWS_MESSAGES_OFF                            :끄기
 STR_CONFIG_SETTING_NEWS_MESSAGES_SUMMARY                        :요약
@@ -2527,8 +2530,10 @@ STR_LAI_WATER_DESCRIPTION_SHIP_DEPOT                            :정박소
 # Industries come directly from their industry names
 
 STR_LAI_TUNNEL_DESCRIPTION_RAILROAD                             :철도용 터널
+STR_LAI_TUNNEL_DESCRIPTION_RAILROAD_SIGNAL                      :신호기가 설치된 철도용 터널
 STR_LAI_TUNNEL_DESCRIPTION_ROAD                                 :도로용 터널
 
+STR_LAI_BRIDGE_DESCRIPTION_RAILROAD_SIGNAL                      :신호기가 설치된 철교
 STR_LAI_BRIDGE_DESCRIPTION_RAIL_SUSPENSION_STEEL                :강철 현수 철교
 STR_LAI_BRIDGE_DESCRIPTION_RAIL_GIRDER_STEEL                    :강철 들보 철교
 STR_LAI_BRIDGE_DESCRIPTION_RAIL_CANTILEVER_STEEL                :강철 캔틸레버 철교

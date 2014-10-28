@@ -1526,6 +1526,9 @@ STR_CONFIG_SETTING_NEWS_SUBSIDIES                               :Subsidies: {STR
 STR_CONFIG_SETTING_NEWS_SUBSIDIES_HELPTEXT                      :Display a newspaper about subsidy related events
 STR_CONFIG_SETTING_NEWS_GENERAL_INFORMATION                     :General information: {STRING2}
 STR_CONFIG_SETTING_NEWS_GENERAL_INFORMATION_HELPTEXT            :Display newspaper about general events, such as purchase of exclusive rights or funding of road reconstruction
+STR_CONFIG_SETTING_SIMULATE_SIGNALS                             :Simulate signals in tunnels, bridges every: {STRING2}
+STR_CONFIG_SETTING_SIMULATE_SIGNALS_VALUE                       :{COMMA} tile{P 0 "" s}
+STR_CONFIG_SETTING_SIMULATE_SIGNALS_HELPTEXT					:Simulate signals in tunnels and on bridges.
 
 STR_CONFIG_SETTING_NEWS_MESSAGES_OFF                            :Off
 STR_CONFIG_SETTING_NEWS_MESSAGES_SUMMARY                        :Summary
@@ -2700,8 +2703,10 @@ STR_LAI_WATER_DESCRIPTION_SHIP_DEPOT                            :Ship depot
 # Industries come directly from their industry names
 
 STR_LAI_TUNNEL_DESCRIPTION_RAILROAD                             :Railway tunnel
+STR_LAI_TUNNEL_DESCRIPTION_RAILROAD_SIGNAL                      :Railway tunnel with signal simulation
 STR_LAI_TUNNEL_DESCRIPTION_ROAD                                 :Road tunnel
 
+STR_LAI_BRIDGE_DESCRIPTION_RAILROAD_SIGNAL                      :Railway bridge with signal simulation
 STR_LAI_BRIDGE_DESCRIPTION_RAIL_SUSPENSION_STEEL                :Steel suspension rail bridge
 STR_LAI_BRIDGE_DESCRIPTION_RAIL_GIRDER_STEEL                    :Steel girder rail bridge
 STR_LAI_BRIDGE_DESCRIPTION_RAIL_CANTILEVER_STEEL                :Steel cantilever rail bridge

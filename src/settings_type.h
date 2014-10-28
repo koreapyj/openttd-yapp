@@ -320,6 +320,7 @@ struct ConstructionSettings {
 	uint16 max_bridge_length;                ///< maximum length of bridges
 	uint16 max_tunnel_length;                ///< maximum length of tunnels
 	byte   train_signal_side;                ///< show signals on left / driving / right side
+	byte   simulated_wormhole_signals;       ///< simulate signals in tunnel
 	bool   extra_dynamite;                   ///< extra dynamite
 	bool   road_stop_on_town_road;           ///< allow building of drive-through road stops on town owned roads
 	bool   road_stop_on_competitor_road;     ///< allow building of drive-through road stops on roads owned by competitors
