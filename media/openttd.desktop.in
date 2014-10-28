@@ -1,0 +1,11 @@
+# $Id: openttd.desktop.in 21492 2010-12-13 01:59:58Z rubidium $
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=!!MENU_NAME!!
+Icon=!!TTD!!
+Exec=!!TTD!!
+Terminal=false
+Categories=!!MENU_GROUP!!
+Comment=A clone of Transport Tycoon Deluxe
